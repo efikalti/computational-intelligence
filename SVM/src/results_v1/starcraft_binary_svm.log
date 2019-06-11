@@ -1,0 +1,665 @@
+2018-12-07 11:23:24,870 INFO Program started
+2018-12-07 11:23:24,937 INFO Number of examples per class
+2018-12-07 11:23:24,938 INFO Bronze - 1:           167.0
+2018-12-07 11:23:24,938 INFO Silver - 2:           347.0
+2018-12-07 11:23:24,938 INFO Gold - 3:             553.0
+2018-12-07 11:23:24,938 INFO Platinum - 4:         811.0
+2018-12-07 11:23:24,938 INFO Diamond - 5:          806.0
+2018-12-07 11:23:24,938 INFO Master - 6:           621.0
+2018-12-07 11:23:24,938 INFO GrandMaster - 7:      35.0
+2018-12-07 11:23:24,938 INFO Professional - 8:     55.0
+2018-12-07 11:23:26,823 INFO Number of examples per class
+2018-12-07 11:23:26,824 INFO Casual - (1):           1517.0
+2018-12-07 11:23:26,824 INFO Hardcore - (-1):           1878.0
+2018-12-07 11:23:26,824 INFO Binary SVM
+
+2018-12-07 11:23:27,044 INFO Number of support vectors: [951 951]
+2018-12-07 11:23:27,044 INFO C value:                   1.0
+2018-12-07 11:23:27,044 INFO Gamma value:               0.01
+2018-12-07 11:23:27,046 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.82      0.64      0.72       384
+         1.0       0.75      0.89      0.81       465
+
+   micro avg       0.77      0.77      0.77       849
+   macro avg       0.78      0.76      0.76       849
+weighted avg       0.78      0.77      0.77       849
+
+2018-12-07 11:23:27,047 INFO Confusion matrix:
+[[245 139]
+ [ 53 412]]
+2018-12-07 11:23:27,047 INFO ----------------------------------
+2018-12-07 11:23:27,047 INFO 
+
+2018-12-07 11:23:27,329 INFO Number of support vectors: [1133 1133]
+2018-12-07 11:23:27,329 INFO C value:                   1
+2018-12-07 11:23:27,329 INFO Gamma value:               0.001
+2018-12-07 11:23:27,332 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.00      0.00      0.00       384
+         1.0       0.55      1.00      0.71       465
+
+   micro avg       0.55      0.55      0.55       849
+   macro avg       0.27      0.50      0.35       849
+weighted avg       0.30      0.55      0.39       849
+
+2018-12-07 11:23:27,332 INFO Confusion matrix:
+[[  0 384]
+ [  0 465]]
+2018-12-07 11:23:27,332 INFO ----------------------------------
+2018-12-07 11:23:27,332 INFO 
+
+2018-12-07 11:23:27,665 INFO Number of support vectors: [1133 1413]
+2018-12-07 11:23:27,665 INFO Class weight value:        balanced
+2018-12-07 11:23:27,665 INFO C value:                   1
+2018-12-07 11:23:27,665 INFO Gamma value:               0.001
+2018-12-07 11:23:27,668 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.75      0.77      0.76       384
+         1.0       0.81      0.78      0.80       465
+
+   micro avg       0.78      0.78      0.78       849
+   macro avg       0.78      0.78      0.78       849
+weighted avg       0.78      0.78      0.78       849
+
+2018-12-07 11:23:27,668 INFO Confusion matrix:
+[[297  87]
+ [100 365]]
+2018-12-07 11:23:27,668 INFO ----------------------------------
+2018-12-07 11:23:27,668 INFO 
+
+2018-12-07 11:23:27,880 INFO Number of support vectors: [951 951]
+2018-12-07 11:23:27,880 INFO C value:                   1
+2018-12-07 11:23:27,880 INFO Gamma value:               0.01
+2018-12-07 11:23:27,883 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.82      0.64      0.72       384
+         1.0       0.75      0.89      0.81       465
+
+   micro avg       0.77      0.77      0.77       849
+   macro avg       0.78      0.76      0.76       849
+weighted avg       0.78      0.77      0.77       849
+
+2018-12-07 11:23:27,883 INFO Confusion matrix:
+[[245 139]
+ [ 53 412]]
+2018-12-07 11:23:27,883 INFO ----------------------------------
+2018-12-07 11:23:27,883 INFO 
+
+2018-12-07 11:23:28,120 INFO Number of support vectors: [ 863 1078]
+2018-12-07 11:23:28,120 INFO Class weight value:        balanced
+2018-12-07 11:23:28,120 INFO C value:                   1
+2018-12-07 11:23:28,120 INFO Gamma value:               0.01
+2018-12-07 11:23:28,123 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.75      0.76       384
+         1.0       0.80      0.82      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.78      0.78       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:28,123 INFO Confusion matrix:
+[[288  96]
+ [ 85 380]]
+2018-12-07 11:23:28,123 INFO ----------------------------------
+2018-12-07 11:23:28,123 INFO 
+
+2018-12-07 11:23:28,289 INFO Number of support vectors: [712 712]
+2018-12-07 11:23:28,289 INFO C value:                   1
+2018-12-07 11:23:28,289 INFO Gamma value:               0.1
+2018-12-07 11:23:28,291 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.72      0.76       384
+         1.0       0.79      0.85      0.82       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:28,291 INFO Confusion matrix:
+[[278 106]
+ [ 70 395]]
+2018-12-07 11:23:28,291 INFO ----------------------------------
+2018-12-07 11:23:28,291 INFO 
+
+2018-12-07 11:23:28,486 INFO Number of support vectors: [641 797]
+2018-12-07 11:23:28,486 INFO Class weight value:        balanced
+2018-12-07 11:23:28,486 INFO C value:                   1
+2018-12-07 11:23:28,486 INFO Gamma value:               0.1
+2018-12-07 11:23:28,489 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.78      0.76      0.77       384
+         1.0       0.80      0.82      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:28,489 INFO Confusion matrix:
+[[290  94]
+ [ 83 382]]
+2018-12-07 11:23:28,489 INFO ----------------------------------
+2018-12-07 11:23:28,489 INFO 
+
+2018-12-07 11:23:28,646 INFO Number of support vectors: [631 631]
+2018-12-07 11:23:28,646 INFO C value:                   1
+2018-12-07 11:23:28,646 INFO Gamma value:               1
+2018-12-07 11:23:28,649 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.79      0.73      0.76       384
+         1.0       0.79      0.85      0.82       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:28,649 INFO Confusion matrix:
+[[279 105]
+ [ 72 393]]
+2018-12-07 11:23:28,649 INFO ----------------------------------
+2018-12-07 11:23:28,649 INFO 
+
+2018-12-07 11:23:28,826 INFO Number of support vectors: [573 706]
+2018-12-07 11:23:28,826 INFO Class weight value:        balanced
+2018-12-07 11:23:28,826 INFO C value:                   1
+2018-12-07 11:23:28,826 INFO Gamma value:               1
+2018-12-07 11:23:28,829 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.77      0.77       384
+         1.0       0.81      0.82      0.81       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.80      0.80       849
+
+2018-12-07 11:23:28,829 INFO Confusion matrix:
+[[296  88]
+ [ 86 379]]
+2018-12-07 11:23:28,829 INFO ----------------------------------
+2018-12-07 11:23:28,829 INFO 
+
+2018-12-07 11:23:29,040 INFO Number of support vectors: [950 950]
+2018-12-07 11:23:29,040 INFO C value:                   10
+2018-12-07 11:23:29,040 INFO Gamma value:               0.001
+2018-12-07 11:23:29,042 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.82      0.64      0.72       384
+         1.0       0.75      0.89      0.81       465
+
+   micro avg       0.77      0.77      0.77       849
+   macro avg       0.78      0.76      0.76       849
+weighted avg       0.78      0.77      0.77       849
+
+2018-12-07 11:23:29,043 INFO Confusion matrix:
+[[245 139]
+ [ 53 412]]
+2018-12-07 11:23:29,043 INFO ----------------------------------
+2018-12-07 11:23:29,043 INFO 
+
+2018-12-07 11:23:29,284 INFO Number of support vectors: [ 863 1076]
+2018-12-07 11:23:29,284 INFO Class weight value:        balanced
+2018-12-07 11:23:29,284 INFO C value:                   10
+2018-12-07 11:23:29,284 INFO Gamma value:               0.001
+2018-12-07 11:23:29,287 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.75      0.76       384
+         1.0       0.80      0.82      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.78      0.78       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:29,287 INFO Confusion matrix:
+[[288  96]
+ [ 85 380]]
+2018-12-07 11:23:29,287 INFO ----------------------------------
+2018-12-07 11:23:29,287 INFO 
+
+2018-12-07 11:23:29,450 INFO Number of support vectors: [711 711]
+2018-12-07 11:23:29,450 INFO C value:                   10
+2018-12-07 11:23:29,450 INFO Gamma value:               0.01
+2018-12-07 11:23:29,452 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.72      0.76       384
+         1.0       0.79      0.85      0.82       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:29,452 INFO Confusion matrix:
+[[277 107]
+ [ 69 396]]
+2018-12-07 11:23:29,452 INFO ----------------------------------
+2018-12-07 11:23:29,452 INFO 
+
+2018-12-07 11:23:29,656 INFO Number of support vectors: [641 796]
+2018-12-07 11:23:29,656 INFO Class weight value:        balanced
+2018-12-07 11:23:29,656 INFO C value:                   10
+2018-12-07 11:23:29,656 INFO Gamma value:               0.01
+2018-12-07 11:23:29,658 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.78      0.75      0.76       384
+         1.0       0.80      0.82      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:29,659 INFO Confusion matrix:
+[[288  96]
+ [ 82 383]]
+2018-12-07 11:23:29,659 INFO ----------------------------------
+2018-12-07 11:23:29,659 INFO 
+
+2018-12-07 11:23:29,812 INFO Number of support vectors: [632 631]
+2018-12-07 11:23:29,812 INFO C value:                   10
+2018-12-07 11:23:29,812 INFO Gamma value:               0.1
+2018-12-07 11:23:29,815 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.74      0.77       384
+         1.0       0.80      0.85      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.79      0.80       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:29,815 INFO Confusion matrix:
+[[283 101]
+ [ 69 396]]
+2018-12-07 11:23:29,815 INFO ----------------------------------
+2018-12-07 11:23:29,815 INFO 
+
+2018-12-07 11:23:29,989 INFO Number of support vectors: [565 701]
+2018-12-07 11:23:29,989 INFO Class weight value:        balanced
+2018-12-07 11:23:29,989 INFO C value:                   10
+2018-12-07 11:23:29,989 INFO Gamma value:               0.1
+2018-12-07 11:23:29,991 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.78      0.77       384
+         1.0       0.81      0.81      0.81       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:29,992 INFO Confusion matrix:
+[[298  86]
+ [ 88 377]]
+2018-12-07 11:23:29,992 INFO ----------------------------------
+2018-12-07 11:23:29,992 INFO 
+
+2018-12-07 11:23:30,178 INFO Number of support vectors: [600 600]
+2018-12-07 11:23:30,178 INFO C value:                   10
+2018-12-07 11:23:30,178 INFO Gamma value:               1
+2018-12-07 11:23:30,180 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.72      0.76       384
+         1.0       0.79      0.85      0.82       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:30,180 INFO Confusion matrix:
+[[278 106]
+ [ 71 394]]
+2018-12-07 11:23:30,181 INFO ----------------------------------
+2018-12-07 11:23:30,181 INFO 
+
+2018-12-07 11:23:30,375 INFO Number of support vectors: [553 659]
+2018-12-07 11:23:30,376 INFO Class weight value:        balanced
+2018-12-07 11:23:30,376 INFO C value:                   10
+2018-12-07 11:23:30,376 INFO Gamma value:               1
+2018-12-07 11:23:30,378 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.76      0.76       384
+         1.0       0.80      0.81      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.78      0.78      0.78       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:30,378 INFO Confusion matrix:
+[[291  93]
+ [ 88 377]]
+2018-12-07 11:23:30,378 INFO ----------------------------------
+2018-12-07 11:23:30,378 INFO 
+
+2018-12-07 11:23:30,545 INFO Number of support vectors: [712 711]
+2018-12-07 11:23:30,545 INFO C value:                   100
+2018-12-07 11:23:30,545 INFO Gamma value:               0.001
+2018-12-07 11:23:30,547 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.72      0.76       384
+         1.0       0.78      0.85      0.82       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.78      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:30,547 INFO Confusion matrix:
+[[275 109]
+ [ 69 396]]
+2018-12-07 11:23:30,547 INFO ----------------------------------
+2018-12-07 11:23:30,547 INFO 
+
+2018-12-07 11:23:30,735 INFO Number of support vectors: [639 796]
+2018-12-07 11:23:30,735 INFO Class weight value:        balanced
+2018-12-07 11:23:30,735 INFO C value:                   100
+2018-12-07 11:23:30,735 INFO Gamma value:               0.001
+2018-12-07 11:23:30,737 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.78      0.75      0.76       384
+         1.0       0.80      0.82      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:30,738 INFO Confusion matrix:
+[[288  96]
+ [ 82 383]]
+2018-12-07 11:23:30,738 INFO ----------------------------------
+2018-12-07 11:23:30,738 INFO 
+
+2018-12-07 11:23:30,893 INFO Number of support vectors: [629 626]
+2018-12-07 11:23:30,893 INFO C value:                   100
+2018-12-07 11:23:30,893 INFO Gamma value:               0.01
+2018-12-07 11:23:30,896 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.73      0.77       384
+         1.0       0.79      0.85      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.79      0.79       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:30,896 INFO Confusion matrix:
+[[282 102]
+ [ 70 395]]
+2018-12-07 11:23:30,896 INFO ----------------------------------
+2018-12-07 11:23:30,896 INFO 
+
+2018-12-07 11:23:31,091 INFO Number of support vectors: [566 702]
+2018-12-07 11:23:31,092 INFO Class weight value:        balanced
+2018-12-07 11:23:31,092 INFO C value:                   100
+2018-12-07 11:23:31,092 INFO Gamma value:               0.01
+2018-12-07 11:23:31,094 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.79      0.78       384
+         1.0       0.82      0.81      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.80      0.80       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:31,094 INFO Confusion matrix:
+[[303  81]
+ [ 88 377]]
+2018-12-07 11:23:31,094 INFO ----------------------------------
+2018-12-07 11:23:31,094 INFO 
+
+2018-12-07 11:23:31,292 INFO Number of support vectors: [594 595]
+2018-12-07 11:23:31,292 INFO C value:                   100
+2018-12-07 11:23:31,292 INFO Gamma value:               0.1
+2018-12-07 11:23:31,294 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.79      0.74      0.77       384
+         1.0       0.80      0.83      0.82       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:31,294 INFO Confusion matrix:
+[[286  98]
+ [ 77 388]]
+2018-12-07 11:23:31,294 INFO ----------------------------------
+2018-12-07 11:23:31,294 INFO 
+
+2018-12-07 11:23:31,482 INFO Number of support vectors: [540 662]
+2018-12-07 11:23:31,482 INFO Class weight value:        balanced
+2018-12-07 11:23:31,482 INFO C value:                   100
+2018-12-07 11:23:31,482 INFO Gamma value:               0.1
+2018-12-07 11:23:31,484 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.79      0.78       384
+         1.0       0.83      0.81      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.80      0.80       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:31,484 INFO Confusion matrix:
+[[305  79]
+ [ 90 375]]
+2018-12-07 11:23:31,484 INFO ----------------------------------
+2018-12-07 11:23:31,484 INFO 
+
+2018-12-07 11:23:31,855 INFO Number of support vectors: [583 584]
+2018-12-07 11:23:31,855 INFO C value:                   100
+2018-12-07 11:23:31,855 INFO Gamma value:               1
+2018-12-07 11:23:31,857 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.78      0.75      0.76       384
+         1.0       0.80      0.82      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.78      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:31,857 INFO Confusion matrix:
+[[287  97]
+ [ 83 382]]
+2018-12-07 11:23:31,857 INFO ----------------------------------
+2018-12-07 11:23:31,857 INFO 
+
+2018-12-07 11:23:32,222 INFO Number of support vectors: [539 624]
+2018-12-07 11:23:32,222 INFO Class weight value:        balanced
+2018-12-07 11:23:32,222 INFO C value:                   100
+2018-12-07 11:23:32,222 INFO Gamma value:               1
+2018-12-07 11:23:32,224 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.78      0.78       384
+         1.0       0.82      0.81      0.81       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.80      0.80       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:32,225 INFO Confusion matrix:
+[[301  83]
+ [ 89 376]]
+2018-12-07 11:23:32,225 INFO ----------------------------------
+2018-12-07 11:23:32,225 INFO 
+
+2018-12-07 11:23:32,379 INFO Number of support vectors: [626 628]
+2018-12-07 11:23:32,379 INFO C value:                   1000
+2018-12-07 11:23:32,379 INFO Gamma value:               0.001
+2018-12-07 11:23:32,381 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.79      0.74      0.76       384
+         1.0       0.80      0.84      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.79      0.79       849
+weighted avg       0.80      0.80      0.79       849
+
+2018-12-07 11:23:32,381 INFO Confusion matrix:
+[[283 101]
+ [ 73 392]]
+2018-12-07 11:23:32,381 INFO ----------------------------------
+2018-12-07 11:23:32,381 INFO 
+
+2018-12-07 11:23:32,565 INFO Number of support vectors: [567 701]
+2018-12-07 11:23:32,565 INFO Class weight value:        balanced
+2018-12-07 11:23:32,565 INFO C value:                   1000
+2018-12-07 11:23:32,565 INFO Gamma value:               0.001
+2018-12-07 11:23:32,568 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.78      0.79      0.78       384
+         1.0       0.82      0.81      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.80      0.80       849
+weighted avg       0.80      0.80      0.80       849
+
+2018-12-07 11:23:32,568 INFO Confusion matrix:
+[[302  82]
+ [ 87 378]]
+2018-12-07 11:23:32,568 INFO ----------------------------------
+2018-12-07 11:23:32,568 INFO 
+
+2018-12-07 11:23:32,757 INFO Number of support vectors: [598 596]
+2018-12-07 11:23:32,757 INFO C value:                   1000
+2018-12-07 11:23:32,757 INFO Gamma value:               0.01
+2018-12-07 11:23:32,760 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.81      0.76      0.78       384
+         1.0       0.81      0.85      0.83       465
+
+   micro avg       0.81      0.81      0.81       849
+   macro avg       0.81      0.80      0.80       849
+weighted avg       0.81      0.81      0.81       849
+
+2018-12-07 11:23:32,760 INFO Confusion matrix:
+[[290  94]
+ [ 70 395]]
+2018-12-07 11:23:32,760 INFO ----------------------------------
+2018-12-07 11:23:32,760 INFO 
+
+2018-12-07 11:23:32,954 INFO Number of support vectors: [539 667]
+2018-12-07 11:23:32,954 INFO Class weight value:        balanced
+2018-12-07 11:23:32,954 INFO C value:                   1000
+2018-12-07 11:23:32,954 INFO Gamma value:               0.01
+2018-12-07 11:23:32,956 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.78      0.81      0.79       384
+         1.0       0.84      0.81      0.82       465
+
+   micro avg       0.81      0.81      0.81       849
+   macro avg       0.81      0.81      0.81       849
+weighted avg       0.81      0.81      0.81       849
+
+2018-12-07 11:23:32,956 INFO Confusion matrix:
+[[310  74]
+ [ 90 375]]
+2018-12-07 11:23:32,956 INFO ----------------------------------
+2018-12-07 11:23:32,956 INFO 
+
+2018-12-07 11:23:33,357 INFO Number of support vectors: [565 580]
+2018-12-07 11:23:33,357 INFO C value:                   1000
+2018-12-07 11:23:33,357 INFO Gamma value:               0.1
+2018-12-07 11:23:33,359 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.79      0.74      0.76       384
+         1.0       0.80      0.84      0.82       465
+
+   micro avg       0.80      0.80      0.80       849
+   macro avg       0.80      0.79      0.79       849
+weighted avg       0.80      0.80      0.79       849
+
+2018-12-07 11:23:33,359 INFO Confusion matrix:
+[[283 101]
+ [ 73 392]]
+2018-12-07 11:23:33,359 INFO ----------------------------------
+2018-12-07 11:23:33,359 INFO 
+
+2018-12-07 11:23:33,791 INFO Number of support vectors: [521 635]
+2018-12-07 11:23:33,791 INFO Class weight value:        balanced
+2018-12-07 11:23:33,791 INFO C value:                   1000
+2018-12-07 11:23:33,791 INFO Gamma value:               0.1
+2018-12-07 11:23:33,793 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.77      0.77       384
+         1.0       0.81      0.81      0.81       465
+
+   micro avg       0.79      0.79      0.79       849
+   macro avg       0.79      0.79      0.79       849
+weighted avg       0.79      0.79      0.79       849
+
+2018-12-07 11:23:33,793 INFO Confusion matrix:
+[[297  87]
+ [ 89 376]]
+2018-12-07 11:23:33,793 INFO ----------------------------------
+2018-12-07 11:23:33,793 INFO 
+
+2018-12-07 11:23:35,431 INFO Number of support vectors: [564 564]
+2018-12-07 11:23:35,432 INFO C value:                   1000
+2018-12-07 11:23:35,432 INFO Gamma value:               1
+2018-12-07 11:23:35,434 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.75      0.70      0.72       384
+         1.0       0.77      0.80      0.78       465
+
+   micro avg       0.76      0.76      0.76       849
+   macro avg       0.76      0.75      0.75       849
+weighted avg       0.76      0.76      0.76       849
+
+2018-12-07 11:23:35,434 INFO Confusion matrix:
+[[270 114]
+ [ 92 373]]
+2018-12-07 11:23:35,434 INFO ----------------------------------
+2018-12-07 11:23:35,434 INFO 
+
+2018-12-07 11:23:37,176 INFO Number of support vectors: [548 586]
+2018-12-07 11:23:37,176 INFO Class weight value:        balanced
+2018-12-07 11:23:37,176 INFO C value:                   1000
+2018-12-07 11:23:37,176 INFO Gamma value:               1
+2018-12-07 11:23:37,178 INFO Results:
+              precision    recall  f1-score   support
+
+        -1.0       0.74      0.73      0.74       384
+         1.0       0.78      0.79      0.79       465
+
+   micro avg       0.76      0.76      0.76       849
+   macro avg       0.76      0.76      0.76       849
+weighted avg       0.76      0.76      0.76       849
+
+2018-12-07 11:23:37,179 INFO Confusion matrix:
+[[280 104]
+ [ 96 369]]
+2018-12-07 11:23:37,179 INFO ----------------------------------
+2018-12-07 11:23:37,179 INFO 
+
+2018-12-07 11:23:37,179 INFO Best results for Binary iterations: 
+2018-12-07 11:23:37,179 INFO Run with Balanced class weights: 
+2018-12-07 11:23:37,179 INFO Best F1 score:                  0.8056926271602732
+2018-12-07 11:23:37,179 INFO Best C value:                   1000
+2018-12-07 11:23:37,179 INFO Best Gamma value:               0.01
+2018-12-07 11:23:37,179 INFO 
+

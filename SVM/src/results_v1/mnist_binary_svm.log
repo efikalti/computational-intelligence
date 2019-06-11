@@ -1,0 +1,30 @@
+2018-12-07 11:23:47,780 INFO Program started
+2018-12-07 11:23:47,780 INFO Started reading training data
+2018-12-07 11:23:47,781 INFO Reading train image data
+2018-12-07 11:23:48,318 INFO Normalizing train image data...
+2018-12-07 11:23:56,998 INFO Finished reading train data.
+2018-12-07 11:23:57,006 INFO Started reading test data
+2018-12-07 11:23:57,006 INFO Reading test image data...
+2018-12-07 11:23:57,100 INFO Normalizing test image data...
+2018-12-07 11:23:58,561 INFO Finished reading test data.
+2018-12-07 11:23:58,562 INFO Training Binary SVM
+
+2018-12-07 11:33:23,724 INFO Number of support vectors: [3629 3777]
+2018-12-07 11:33:23,724 INFO C value:                   1.0
+2018-12-07 11:33:23,724 INFO Gamma value:               0.01
+2018-12-07 11:33:23,732 INFO Results:
+              precision    recall  f1-score   support
+
+          -1       0.99      0.98      0.99      5074
+           1       0.98      0.99      0.98      4926
+
+   micro avg       0.98      0.98      0.98     10000
+   macro avg       0.98      0.99      0.98     10000
+weighted avg       0.99      0.98      0.99     10000
+
+2018-12-07 11:33:23,733 INFO Confusion matrix:
+[[4991   83]
+ [  67 4859]]
+2018-12-07 11:33:23,733 INFO ----------------------------------
+2018-12-07 11:33:23,733 INFO 
+
